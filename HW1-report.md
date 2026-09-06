@@ -10,13 +10,15 @@ Due: Sunday, September 6, 2026
 
 https://github.com/kbmuncie/CS625-Test-HW1
 
+This is the repo I have created under my private account as directed.
+
 ### Q2 - Pull Command
 
-Pull requests and commands send remote changes to local.
+Pull requests and commands send remote changes to local. I requested a pull in the Source Control section of Visual Studio Code locally.
 
 ### Q3 - Local Commits
 
-Local commits send local changes to remote. If a committed change on the local machine does not updated on GitHub.com, the user may have forgotten to push the commit.
+Local commits send local changes to remote. If a committed change on the local machine does not updated on GitHub.com, the user may have forgotten to push the commit. The origin/main branch will not see the changes if it is not synced. I used the same section for pull commands to push the changes. I then synced the remote and local main branches in my repo.
 
 ## Markdown
 
