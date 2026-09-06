@@ -8,15 +8,15 @@ Due: Sunday, September 6, 2026
 
 ### Q1 - URL of GitHub Repo
 
-Insert your answer and explanation here
+https://github.com/kbmuncie/CS625-Test-HW1
 
 ### Q2 - Pull Command
 
-Insert your answer and explanation here
+Pull requests and commands send remote changes to local.
 
 ### Q3 - Local Commits
 
-Insert your answer and explanation here
+Local commits send local changes to remote. If a committed change on the local machine does not updated on GitHub.com, the user may have forgotten to push the local commit to remote.
 
 ## Markdown
 
