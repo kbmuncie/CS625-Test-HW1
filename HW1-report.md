@@ -53,50 +53,58 @@ I added an image I found through Google Images of a cat at a computer.
 
 ### Q1 - Region Other Than the South
 
-Insert your answer and explanation here
+I chose to use the East region instead of the South.
+
+![Sales in the East](/Sales%20in%20the%20East.png "Sales in the East")
 
 ## Google Colab
 
 ### Q1 - URL of Google Colab Notebook
 
-Insert your answer and explanation here
+[Colab Link](https://colab.research.google.com/drive/142Rdnk3XN43bILqDC2jGTiX5_XqQHPqx?usp=sharing)
 
 ## Python/Seaborn
 
 ### Q1 - First Penguin Image
 
-Insert your answer and explanation here
+The first figure from the penguin data: ![Seaborn Penguins 1](/Seaborn-Figure-1.png)
+
+This first figure showcases the depth and length of the penguin species' bills as a scatterplot. You can see two large groupings with outliers across both areas of measurement.
 
 ### Q2 - Second Penguin Image
 
-Insert your answer and explanation here
+The second figure from the penguin data: ![Seaborn Penguins 2](/Seaborn-Figure-2.png)
+
+The second figure is a bar chart with three species of penguin's body mass data for comparison. The Gentoo species has the largest body mass per the data whereas the Adelie and Chinstrap species of penguin have nearly identical body mass measurements.
 
 ### Q3 - Outer Parenthesis
 
-Insert your answer and explanation here
+When I removed the outermost parenthesis and appended the `.add(so.Bar(), so.Agg())` portion to the first line, it showed the same chart. This showcased the use of Python to reduce long lines of code and create "implicit line continuation." (Python Morsels 2021)
 
 ## Observable and Vega-Lite
 
 ### Q1 - markCircle to markSquare
 
-Insert your answer and explanation here
+When I changed markCircle() to markSquare(), the plots changed shape from circles to squares.
 
 ### Q2 - markCircle to markPoint
 
-Insert your answer and explanation here
+When I changed markCircle() to markPoint(), the plots shape went from filled circles to outlined circles instead. When I followed the original Observable files' instructions to pass an option of {shape: "diamond"} to markPoint(), the outlined circles became outlined diamond shapes. 
 
 ### Q3 - Swap X and Y Axes on Scatterplot
 
-Insert your answer and explanation here
+To swap the x and y axes on the scatterplot, I just needed to adjust the `fieldQ(Origin)` data for each axis. `the x().fieldQ("Acceleration")` became `x().fieldQ("Miles_per_Gallon")` and `vl.y().fieldQ("Miles_per_Gallon")` became `vl.y.().fieldQ("Acceleration")`. Vega-Lite looked into the established data from the cars.json file to get the data associated with each object's `Miles_perGallon` and `Acceleration` key/values.
 
 ### Q4 - Remove fieldN(Origin)
 
-Insert your answer and explanation here
+![VegaLite BarChart Changed](/VegaLite-BarChart-1.png "VegaLite BarChart Changed")
+
+Interestingly, when I removed the line `vl.y().fieldN("Origin")`, the bar chart became soley focused on the count of records, rather than the count of records per country of origin. This chart only used the x-axis so there was no code or data referenced to create other bars in the chart.
 
 ## References
 
 *Eavery report must include a References section that lists the webpages and URLs that you consulted while completing the assignment. Replace the items below with the references you consulted - these are just examples.* ***Everyone will use some reference to complete these assignments (even I would). You will lose points on your assignment if you do not include the references you used.***
 
-* Graph Network using Vega-Lite or Vega, <https://stackoverflow.com/questions/77096216/graph-network-using-vega-lite-or-vega>
-* Calculating percentage change - Math for journalists, <https://observablehq.com/@nshiab/math-for-journalists>
-* ChatGPT: "How can I add an axis label to my line chart in Seaborn?", <https://chatgpt.com/share/684c8e25-4944-8011-b265-ae9aefc07959>
+* Breaking up long lines of code in Python, <https://www.pythonmorsels.com/breaking-long-lines-code-python/>
+* A Taste of Observable, <https://observablehq.com/@observablehq/a-taste-of-observable>
+* Charting with Vega-Lite, <https://observablehq.com/@observablehq/vega-lite>
