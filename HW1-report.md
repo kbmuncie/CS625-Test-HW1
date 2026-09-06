@@ -47,7 +47,7 @@ Code blocks can be used as shown below:
 ### Q3 - Animal Image
 
 I added an image I found through Google Images of a cat at a computer.
-![Cat at a Computer](/cat-image-cs625.jpg "Cat at a Computer")
+![Cat at a Computer](/Image%20Files/cat-image-cs625.jpg "Cat at a Computer")
 
 ## Tableau
 
@@ -55,7 +55,7 @@ I added an image I found through Google Images of a cat at a computer.
 
 I chose to use the East region instead of the South.
 
-![Sales in the East](/Sales%20in%20the%20East.png "Sales in the East")
+![Sales in the East](/Image%20Files/Sales%20in%20the%20East.png "Sales in the East")
 
 ## Google Colab
 
@@ -67,13 +67,13 @@ I chose to use the East region instead of the South.
 
 ### Q1 - First Penguin Image
 
-The first figure from the penguin data: ![Seaborn Penguins 1](/Seaborn-Figure-1.png)
+The first figure from the penguin data: ![Seaborn Penguins 1](/Image%20Files/Seaborn-Figure-1.png)
 
 This first figure showcases the depth and length of the penguin species' bills as a scatterplot. You can see two large groupings with outliers across both areas of measurement.
 
 ### Q2 - Second Penguin Image
 
-The second figure from the penguin data: ![Seaborn Penguins 2](/Seaborn-Figure-2.png)
+The second figure from the penguin data: ![Seaborn Penguins 2](/Image%20Files/Seaborn-Figure-2.png)
 
 The second figure is a bar chart with three species of penguin's body mass data for comparison. The Gentoo species has the largest body mass per the data whereas the Adelie and Chinstrap species of penguin have nearly identical body mass measurements.
 
@@ -97,7 +97,7 @@ To swap the x and y axes on the scatterplot, I just needed to adjust the `fieldQ
 
 ### Q4 - Remove fieldN(Origin)
 
-![VegaLite BarChart Changed](/VegaLite-BarChart-1.png "VegaLite BarChart Changed")
+![VegaLite BarChart Changed](/Image%20Files/VegaLite-BarChart-1.png "VegaLite BarChart Changed")
 
 Interestingly, when I removed the line `vl.y().fieldN("Origin")`, the bar chart became soley focused on the count of records, rather than the count of records per country of origin. This chart only used the x-axis so there was no code or data referenced to create other bars in the chart.
 
