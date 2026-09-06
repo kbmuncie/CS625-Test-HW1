@@ -24,15 +24,30 @@ Local commits send local changes to remote. If a committed change on the local m
 
 ### Q1 - Bulleted List
 
-Insert your answer and explanation here
+To make a bulleted list, I used dashes (-) in front of the line items as shown below.
+
+- Cats
+- Dogs
+- Birds
+
+This list is different than a numbered list because the line items above are unordered.
 
 ### Q2 - Markdown Paragraph
 
-Insert your answer and explanation here
+This paragraph contains several key **Markdown** syntax that will allow me to convey my understanding of Markdown's capabilities. This includes **bold**, *italics*, and even ***bold italics***. In several reports, especially technical reports, we will need to convey when something is `code` versus plain text and sometimes even use code blocks. We can also include a [link](https://www.instagram.com/p/DVnmDVhk8bc/) through embedding it much like in HTML.
+
+Code blocks can be used as shown below:
+
+<html>
+      <head>
+      A Code Block
+      </head>
+    </html>
 
 ### Q3 - Animal Image
 
-Insert your answer and explanation here
+I added an image I found through Google Images of a cat at a computer.
+![Cat at a Computer](/cat-image-cs625.jpg "Cat at a Computer")
 
 ## Tableau
 
