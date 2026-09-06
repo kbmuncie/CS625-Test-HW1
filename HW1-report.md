@@ -1,6 +1,6 @@
 # Homework 1: Tool Setup
 
-**Insert Your Name Here**  
+**Kaitlyn Muncie**  
 CS 625, Fall 2026  
 Due: Sunday, September 6, 2026
 
