@@ -16,7 +16,7 @@ Pull requests and commands send remote changes to local.
 
 ### Q3 - Local Commits
 
-Local commits send local changes to remote. If a committed change on the local machine does not updated on GitHub.com, the user may have forgotten to push the local commit to remote.
+Local commits send local changes to remote. If a committed change on the local machine does not updated on GitHub.com, the user may have forgotten to push the commit.
 
 ## Markdown
 
